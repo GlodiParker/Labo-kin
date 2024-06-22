@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: microserviceproduit
+  datasource:
+    url: jdbc:postgresql://localhost:5432/produitDb
+    username: postgres
+    password: admin
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  hibernate:
+    ddl-auto: update
+    show-sql: true
